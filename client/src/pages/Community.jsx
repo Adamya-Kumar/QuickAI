@@ -1,5 +1,5 @@
 import { useAuth, useUser } from "@clerk/clerk-react";
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { Heart } from "lucide-react";
 import axios from "axios"
 import toast from "react-hot-toast";

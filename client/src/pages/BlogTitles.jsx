@@ -1,5 +1,5 @@
-import { Edit, Hash, Sparkles } from "lucide-react";
-import React, { useState } from "react";
+import {  Hash, Sparkles } from "lucide-react";
+import  { useState } from "react";
 import { useAuth } from "@clerk/clerk-react";
 import toast from "react-hot-toast";
 import Markdown from "react-markdown";
