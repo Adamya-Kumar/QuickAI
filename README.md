@@ -61,17 +61,39 @@ cd ../server
 npm install
 ```
 ### 3. Configure Environment
-Create .env files in both frontend and backend and configure your keys:
+## frontend 
+```bash
+# Clerk Publishable Key (used for authentication)
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 
-OPENAI_API_KEY
+# Backend Base URL
+VITE_BASE_URL=<live_link>
 
-CLERK_SECRET_KEY
+```
+## backend
+```bash
+# Server Port
+PORT=3000
 
-NEON_DB_URL
+# Neon PostgreSQL Database Connection String
+DATABASE_URL=your_postgresql_database_url
 
-CLOUDINARY_API_KEY
+# Clerk Authentication
+CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
 
-etc.
+# Gemini AI Key (Optional - if using Google Gemini AI)
+GEMINI_API_KEY=your_gemini_api_key
+
+# Clickdrop API Key (for object/background removal)
+CLICKDROP_API_KEY=your_clickdrop_api_key
+
+# Cloudinary Credentials (for image uploads)
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+```
+
 ##▶️ Usage
 ### Run Frontend
 ```bash
