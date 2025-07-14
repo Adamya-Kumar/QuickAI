@@ -94,7 +94,7 @@ CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 ```
 
-##▶️ Usage
+## ▶️ Usage
 ### Run Frontend
 ```bash
 cd client
